@@ -25,7 +25,7 @@ jobs: # Job to execute on event
          uses: actions/checkout@v2
          
        - name: Check file system #check virtual environment has my files
-         run: 
+         run: |
           ls
           cat calc.go #print the content of calc.go
           
