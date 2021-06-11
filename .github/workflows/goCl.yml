@@ -48,4 +48,6 @@ jobs: # Job to execute on event
           go get github.com/franela/goblin #Adds package for Goblin testing
           go get github.com/tebeka/go2xunit #Adds package for conversion
           go test -v #command to run go test
+          go test -v | go2xunit > report.xml # run test again and output as report.xml (to show the effect)
+          ls # verify that report indeed created
 
