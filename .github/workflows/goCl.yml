@@ -41,5 +41,5 @@ jobs: # Job to execute on event
           cd virtualRepoFolder # to access the folder of interest in my virtual env
           ls
           cat myText.txt #show content of file of interest
-          cd..
+          cd ..
          
