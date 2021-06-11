@@ -4,12 +4,12 @@ on: #on event keyword
     branches: [main] #identifying branch
     
 jobs: # Job to execute on event
-  build:
-   name: My Job
-   runs-on: ubuntu-latest # specify OS in virtual machine
-   steps:
-   - name: Print a greeting
-     run: |
-      ls
-      echo Hello there! # run terminal command
+  my-job:
+    name: My Job
+    runs-on: ubuntu-latest # specify OS in virtual machine
+    steps:
+       - name: Print a greeting
+         run: |
+          ls
+          echo Hello there! # run terminal command
     
